@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+
+  <title>Frontend Mentor | Product list with cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>Coded by evelis_code</div>
+  </header>
+
+  <main>
+    <section class="galerie">
+      <h1 class="max-font-weight galerie-item0">Desserts</h1>
+
+      <article class="galerie-item1">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-waffle-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-waffle-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-waffle-desktop.jpg">
+
+          <img src="./assets/images/image-waffle-thumbnail.jpg" alt="image_dessert" class="image-desserts">
+        </picture>
+        <div class="add-to-cart">
+          <img src="./assets/images/icon-add-to-cart.svg" alt="icon">
+          <p>Add to Cart</p>
+        </div>
+        <p class="mid-opacity">Waffle</p>
+        <p class="mid-font-weight">Waffle with Berries</p>
+        <p class="color-orange mid-font-weight">$6.50</p>
+      </article>
+      <article class="galerie-item2">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-creme-brulee-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-creme-brulee-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-creme-brulee-desktop.jpg">
+
+          <img src="./assets/images/image-creme-brulee-thumbnail.jpg" alt="image_dessert" class="image-desserts border-orange">
+        </picture>
+        <div class="increment">
+          <img src="./assets/images/icon-decrement-quantity.svg" alt="icon">
+          <p>4</p>
+          <img src="./assets/images/icon-increment-quantity.svg" alt="icon">
+        </div>
+        <p class="mid-opacity">Crème brulée</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$7.00</p>
+      </article>
+      <article class="galerie-item3">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-macaron-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-macaron-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-macaron-desktop.jpg">
+
+          <img src="./assets/images/image-macaron-thumbnail.jpg" alt="image_dessert" class="image-desserts">
+        </picture>
+        <div class="add-to-cart">
+          <img src="./assets/images/icon-add-to-cart.svg" alt="icon">
+          <p>Add to Cart</p>
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+      <article class="galerie-item4">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-tiramisu-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-tiramisu-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-tiramisu-desktop.jpg">
+
+          <img src="./assets/images/image-tiramisu-thumbnail.jpg" alt="image_dessert" class="image-desserts border-orange">
+        </picture>
+        <div class="increment">
+          <img src="./assets/images/icon-decrement-quantity.svg" alt="icon">
+          <p>1</p>
+          <img src="./assets/images/icon-increment-quantity.svg" alt="icon">
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+      <article class="galerie-item5">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-baklava-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-baklava-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-baklava-desktop.jpg">
+
+          <img src="./assets/images/image-baklava-thumbnail.jpg" alt="image_dessert" class="image-desserts">
+        </picture>
+        <div class="add-to-cart">
+          <img src="./assets/images/icon-add-to-cart.svg" alt="icon">
+          <p>Add to Cart</p>
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+      <article class="galerie-item6">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-meringue-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-meringue-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-meringue-desktop.jpg">
+
+          <img src="./assets/images/image-meringue-thumbnail.jpg" alt="image_dessert" class="image-desserts">
+        </picture>
+        <div class="add-to-cart">
+          <img src="./assets/images/icon-add-to-cart.svg" alt="icon">
+          <p>Add to Cart</p>
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+      <article class="galerie-item7">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-cake-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-cake-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-cake-desktop.jpg">
+
+          <img src="./assets/images/image-cake-thumbnail.jpg" alt="image_dessert" class="image-desserts">
+        </picture>
+        <div class="add-to-cart">
+          <img src="./assets/images/icon-add-to-cart.svg" alt="icon">
+          <p>Add to Cart</p>
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+      <article class="galerie-item8">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-brownie-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-brownie-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-brownie-desktop.jpg">
+
+          <img src="./assets/images/image-brownie-thumbnail.jpg" alt="image_dessert" class="image-desserts">
+        </picture>
+        <div class="add-to-cart">
+          <img src="./assets/images/icon-add-to-cart.svg" alt="icon">
+          <p>Add to Cart</p>
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+      <article class="galerie-item9">
+        <picture>
+          <source media="(max-width: 800px)" srcset="assets/images/image-panna-cotta-mobile.jpg">
+          <source media="(max-width: 1080px)" srcset="assets/images/image-panna-cotta-tablet.jpg">
+          <source media="(min-width: 1080px)" srcset="assets/images/image-panna-cotta-desktop.jpg">
+
+          <img src="./assets/images/image-panna-cotta-thumbnail.jpg" alt="image_dessert" class="image-desserts border-orange">
+        </picture>
+        <div class="increment">
+          <img src="./assets/images/icon-decrement-quantity.svg" alt="icon">
+          <p>2</p>
+          <img src="./assets/images/icon-increment-quantity.svg" alt="icon">
+        </div>
+        <p class="mid-opacity">Lorem</p>
+        <p class="mid-font-weight">Lorem ipsum dolor sit.</p>
+        <p class="color-orange mid-font-weight">$00.00</p>
+      </article>
+    </section>
+
+    <section class="cart bg-white">
+      <h2 class="color-orange">Your Cart (7) </h2>
+      <article class="flex-between">
+        <div class="flex-column">
+          <h3>Classic Tiramisu</h3>
+          <div class="flex-align flex-between">
+            <p class="color-orange">1x</p>
+            <p class="mid-opacity">@$5.50</p>
+            <p>$5.50</p>
+          </div>
+        </div>
+        <img src="./assets/images/icon-remove-item.svg" alt="remove">
+      </article>
+      <hr>
+      <article class="flex-between">
+        <div class="flex-column">
+          <h3>Vanilla Crème Brulée</h3>
+          <div class="flex-align flex-between">
+            <p class="color-orange">4x</p>
+            <p class="mid-opacity">@$7.00</p>
+            <p>$28.00</p>
+          </div>
+        </div>
+        <img src="./assets/images/icon-remove-item.svg" alt="remove">
+      </article>
+      <hr>
+      <article class="flex-between">
+        <div class="flex-column">
+          <h3>Vanilla Panna Cotta</h3>
+          <div class="flex-align flex-between">
+            <p class="color-orange">2x</p>
+            <p class="mid-opacity">@$6.50</p>
+            <p>$13.00</p>
+          </div>
+        </div>
+        <img src="./assets/images/icon-remove-item.svg" alt="remove">
+      </article>
+      <hr>
+
+      <div  class="flex-between">
+        <p>Order Total</p>
+        <p class="max-font-weight">$ 46.50</p>
+      </div>
+
+      <div class="carbon flex-align flex-around">
+        <img src="./assets/images/icon-carbon-neutral.svg" alt="carbon">
+        <p>This is a <b>carbon-neutral</b> delivery</p>
+      </div>
+
+      <button class="confirm-order">Confirm Order</button>
+
+      <article class="pop-up disapear">
+        <div class="order-selected">
+          <img src="./assets/images/icon-order-confirmed.svg" alt="confirm">
+          <h1>Order <br>Confirmed</h1>
+          <p>We hope you enjoy your food!</p>
+  
+          <div class="confirmation-box">
+            <div class="flex-align flex-around">
+              <img src="./assets/images/image-tiramisu-thumbnail.jpg" alt="thumbnail" class="floated">
+              <div class="flex-column">
+                <p class="min-font-weight">Lorem, ipsum dolor.</p>
+                <div class="flex-align flex-around">
+                  <p class="color-orange min-font-weight">1x</p>
+                  <p class="mid-opacity">@$00.00</p>
+                </div>
+              </div>
+              <p class="mid-font-weight">$00.00</p>
+            </div>
+            <div class="flex-align flex-around">
+              <img src="./assets/images/image-creme-brulee-thumbnail.jpg" alt="thumbnail" class="floated">
+              <div class="flex-column">
+                <p class="min-font-weight">Lorem, ipsum dolor.</p>
+                <div class="flex-align flex-around">
+                  <p class="color-orange min-font-weight">1x</p>
+                  <p class="mid-opacity">@$00.00</p>
+                </div>
+              </div>
+              <p class="mid-font-weight">$00.00</p>
+            </div>
+            <div class="flex-align flex-around">
+              <img src="./assets/images/image-panna-cotta-thumbnail.jpg" alt="thumbnail" class="floated">
+              <div class="flex-column">
+                <p class="min-font-weight">Lorem, ipsum dolor.</p>
+                <div class="flex-align flex-around">
+                  <p class="color-orange min-font-weight">1x</p>
+                  <p class="mid-opacity">@$00.00</p>
+                </div>
+              </div>
+              <p class="mid-font-weight">$00.00</p>
+            </div>
+            <div class="flex-align flex-between">
+              <p>Order Total</p>
+              <p class="max-font-weight">$46.50</p>
+            </div>
+          </div>
+  
+          <div class="flex-around">
+            <a href="./index-empty.html" class="new-order">Start New Order</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Aurès A-Z</a>.
+    </div>
+  </footer>
+</body>
+</html>
